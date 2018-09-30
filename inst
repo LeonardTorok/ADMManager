@@ -81,7 +81,7 @@ sleep 4s
 echo -e "\033[1;36mARQUIVOS EXTRAIDOS!...\033[0m"
 sleep 4s
 echo -e "\033[1;36mDANDO PERMISSAO AOS ARQUIVOS...\033[0m"
-mv -f /root/admmanager/* /bin/
+mv -f /root/manager/* /bin/
 chmod  -R 777 /bin/*
 sleep 5s
 echo -e "\033[1;36mPRONTO!!!...\033[0m"
@@ -91,7 +91,7 @@ sleep 4s
 echo -e "\033[1;36mAGUARDE...\033[0m"
 rm -rf /root/manager*
 sleep 1s
-rm -rf /root/admmanager*
+rm -rf /root/manager*
 sleep 1s
 rm -rf /root/inst*
 sleep 1s
