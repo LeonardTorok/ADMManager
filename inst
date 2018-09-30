@@ -65,7 +65,7 @@ echo  -e "\033[0m"
 echo -e "\033[1;36mFAZENDO DOWNLOAD...\033[0m"
 cd /root/
 sleep 1s
-wget -O manager https://github.com/LeonardTorok/admconf/blob/master/manager -o /dev/null
+wget -O manager https://github.com/LeonardTorok/PackManager/blob/master/admmanager.zip -o /dev/null
 sleep 4s
 echo -e "\033[1;36mPREPARANDO ARQUIVOS...\033[0m"
 sleep 4s
@@ -77,7 +77,7 @@ sleep 4s
 echo -e "\033[1;36mARQUIVOS EXTRAIDOS!...\033[0m"
 sleep 4s
 echo -e "\033[1;36mDANDO PERMISSAO AOS ARQUIVOS...\033[0m"
-mv -f /root/manager/* /bin/
+mv -f /root/admmanager/* /bin/
 chmod  -R 777 /bin/*
 sleep 5s
 echo -e "\033[1;36mPRONTO!!!...\033[0m"
@@ -87,7 +87,7 @@ sleep 4s
 echo -e "\033[1;36mAGUARDE...\033[0m"
 rm -rf /root/manager*
 sleep 1s
-rm -rf /root/manager*
+rm -rf /root/admmanager*
 sleep 1s
 rm -rf /root/inst*
 sleep 1s
