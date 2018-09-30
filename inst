@@ -1,5 +1,3 @@
-# ADMManager
-# admconf
 #!/bin/bash
 
 if [ -d /root ]
@@ -62,8 +60,6 @@ echo -e "\033[1;36mPREPARANDO PARA DOWNLOAD...\033[0m"
 apt-get upgrade -y 1>/dev/null 2>/dev/null
 echo  -e "\033[1;32m"
 apt-get install zip -y
-sleep 1s
-apt-get install squid3 -y
 sleep 1s
 echo  -e "\033[0m"
 echo -e "\033[1;36mFAZENDO DOWNLOAD...\033[0m"
